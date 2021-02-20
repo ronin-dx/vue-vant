@@ -7,6 +7,7 @@ import 'vant/lib/index.css';
 import 'lib-flexible'
 import * as filters from './filters'
 import waterfall from "vue-waterfall2";
+import "./styles/page.css"
 
 Vue.config.productionTip = false
 Vue.use(Vant);
