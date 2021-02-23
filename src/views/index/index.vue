@@ -1,13 +1,15 @@
 <template>
-  <div class="container">
+  <div>
     首页
   </div>
 </template>
 
 <script>
 export default {
+  components: { },
   data() {
-    return {};
+    return {
+    };
   },
   computed: {},
   mounted() {
@@ -17,6 +19,4 @@ export default {
   },
 };
 </script>
-<style lang='scss' scoped>
-
-</style>
+<style lang="scss" scoped></style>
