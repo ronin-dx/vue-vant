@@ -1,17 +1,22 @@
 <template>
-  <div>个人中心</div>
+	<div>
+		<div>个人中心</div>
+		<tabbar />
+	</div>
 </template>
 
 <script>
-export default {
-  components: {},
-  data() {
-    return {};
-  },
-  computed: {},
-  created() {},
-  methods: {},
-};
+	import Tabbar from '@/components/Tabbar/index'
+	export default {
+		components: {
+			Tabbar
+		},
+		data() {
+			return {};
+		},
+		computed: {},
+		created() {},
+		methods: {},
+	};
 </script>
-<style lang='scss' scoped>
-</style>
+<style lang="scss" scoped></style>

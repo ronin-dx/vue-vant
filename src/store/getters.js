@@ -1,5 +1,4 @@
 const getters = {
-    // sidebar: state => state.app.sidebar,
-  }
-  export default getters
-  
+	isKeepAlive: state => state.app.isKeepAlive
+}
+export default getters

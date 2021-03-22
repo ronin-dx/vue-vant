@@ -1,5 +1,6 @@
 // 获取当前的时间戳
 let timeStamp = new Date().getTime();
+
 module.exports = {
   //打包后的位置
   publicPath: '/',
@@ -37,4 +38,5 @@ module.exports = {
       }
     }
   }
+  
 }
